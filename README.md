@@ -86,7 +86,7 @@ app/common.py            shared helpers, colours and data loading
 app/text.py              all wording shown in the dashboard
 app/panels/              one file per panel: status, trends, relationships, forecast, about
 tests/                   automated tests (see docs/test_log.md)
-docs/                    data sources, test log, evidence, synopsis, contribution log, Git workflow
+docs/                    data sources, test log, evidence, synopsis, contribution log
 ```
 
 ## Files passed between modules (the "contract")
