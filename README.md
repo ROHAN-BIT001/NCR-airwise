@@ -13,7 +13,7 @@ The data ends in mid-2020, so the dashboard shows the latest available day, not 
 
 | Member | Enrollment | Role and work in this repository |
 | --- | --- | --- |
-| Rohan Jha | S26CSEU2457 | Coordinator. Data pipeline, AQI and features, dashboard (all panels and shell), tests, test log, README, synopsis and contribution log. With the mentor's agreement, Rohan also took over the forecast panel, About page and dashboard wording that were first planned for Manan. |
+| Rohan Jha | S26CSEU2457 | Coordinator. Data pipeline, AQI and features, dashboard (all panels and shell), tests, test log, README, synopsis and contribution log. |
 | Udbhav Saxena | S26CSEU2582 | Data and technology lead. Data sources and licences, baseline models, evaluation, training script and results. |
 | Manan Jain | S26CSEU2543 | Sustainability and documentation lead. Milestone 1 sustainability and SDG mapping, requirements and documentation. |
 
