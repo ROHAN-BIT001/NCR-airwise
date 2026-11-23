@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.2.0, pluggy-1.7.0 -- C:\Program Files\Python314\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Rohann\Downloads\milestone 2\ncr-airwise\ncr-airwise
+plugins: anyio-4.15.1
+collecting ... collected 19 items
+
+tests/test_aqi.py::test_pm25_band_edges PASSED                           [  5%]
+tests/test_aqi.py::test_pm10_band_edges PASSED                           [ 10%]
+tests/test_aqi.py::test_category_boundaries PASSED                       [ 15%]
+tests/test_aqi.py::test_missing_and_negative_inputs PASSED               [ 21%]
+tests/test_aqi.py::test_aqi_is_larger_sub_index PASSED                   [ 26%]
+tests/test_cleaning.py::test_to_ist_converts_utc_and_keeps_naive PASSED  [ 31%]
+tests/test_cleaning.py::test_negative_and_huge_values_removed PASSED     [ 36%]
+tests/test_cleaning.py::test_merge_has_no_duplicate_or_shifted_hours PASSED [ 42%]
+tests/test_cleaning.py::test_missing_share_reported_per_station PASSED   [ 47%]
+tests/test_cleaning.py::test_only_short_gaps_are_filled PASSED           [ 52%]
+tests/test_cleaning.py::test_daily_mean_needs_enough_hours PASSED        [ 57%]
+tests/test_evaluation.py::test_test_period_is_strictly_after_training PASSED [ 63%]
+tests/test_evaluation.py::test_split_blocks_do_not_overlap_and_cover_recent_data PASSED [ 68%]
+tests/test_evaluation.py::test_regression_metrics PASSED                 [ 73%]
+tests/test_evaluation.py::test_category_metrics_pod_and_far PASSED       [ 78%]
+tests/test_evaluation.py::test_range_never_below_zero_and_coverage PASSED [ 84%]
+tests/test_features.py::test_lag_and_target_use_calendar_days PASSED     [ 89%]
+tests/test_features.py::test_missing_day_is_not_skipped PASSED           [ 94%]
+tests/test_features.py::test_rolling_mean_uses_only_past_and_today PASSED [100%]
+
+============================= 19 passed in 0.71s ==============================
