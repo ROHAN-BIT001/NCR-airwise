@@ -32,7 +32,7 @@ Averages over the five stations on the held-out test period (RMSE and MAE in µg
 | 1 day | persistence | 50.7 | 30.0 |
 | 1 day | ridge | 48.4 | 30.3 |
 | 1 day | climatology | 84.7 | 62.0 |
-| 2 days | persistence | 67.8 | 42.1 |
+| 2 days | persistence | 67.8 | 42.0 |
 | 2 days | ridge | 60.8 | 41.0 |
 | 2 days | climatology | 85.0 | 62.3 |
 
